@@ -42,10 +42,11 @@
       border: 2px solid gray;
    }
    td::before{
-      content: attr("data-date");
+      
       position: absolute;
-      right: 0;
-      bottom: 0;
+      top: 0;
+      left: 0;
+      content: attr(data-date);
       width: 40%;
       padding: 5px;
 
