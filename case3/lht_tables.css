@@ -17,11 +17,13 @@
    Mobile Styles: 0px to 640px 
    ===============================
 */
+/*Makes it so where it gets rid of the numbered date and everything is in 
+one column but one side is the date and the other is the event and other info*/
 @media only screen and (max-width: 640px){
    table, tbody, tr, td, th, caption{
       display: block;
    }
-   thead {
+   thead, h1{
       display: none;
    }
    caption{
@@ -59,6 +61,7 @@
    Tablet and Desktop Styles: greater than 640px
    =============================================
 */
+/*Borders the dates, makes it neat, sets the background image, and makes the February days different colors from the rest*/
 @media only screen and (min-width: 641px){
    table{
       background: url(lht_photo1.png);
